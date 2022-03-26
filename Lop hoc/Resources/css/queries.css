@@ -1,0 +1,171 @@
+@media only screen and (max-width:1200px)
+{
+    html{
+        font-size: 16px;
+    }
+    .ten{
+        transform: translate(10px, -30px);
+    }
+    .mal{
+        transform: translate(40px, -30px);
+    }
+}
+
+@media only screen and (max-width:1023px)
+{
+    html{
+        font-size: 14px;
+    }
+    h3{
+        width: 60%;
+    }
+    .main{
+        margin-top: 5px;
+        margin-right: 15px;
+    }
+    .main li{
+        margin-right: 10px;
+    }
+    .btn{
+        margin-left: 50px;
+    }
+    
+    .btn1{
+        width: 80px;
+    }
+    
+    .btn2{
+        width: 80px;
+    }
+    
+    .btn3{
+        width: 40px;
+    }
+    
+    .btn4{
+        width: 40px;
+    }
+    .ten{
+        transform: translate(-150px, -30px);
+    }
+    .mal{
+        transform: translate(540px, -55px);
+    }
+    table{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width:767px)
+{
+    html{
+        font-size: 10px;
+    }
+    .head{
+        border: 40px solid grey;
+        background-color: grey;
+        padding-bottom: 20px;
+    }
+    h3{
+        width: 50%;
+    }
+    .main{
+        margin-top: -20px;
+        margin-right: -30px;
+    }
+    .main li{
+        margin-right: 10px;
+    }
+
+    h2{
+        top:30%;
+    }
+
+    .btn{
+        margin-left: 50px;
+    }
+    
+    .btn1{
+        width: 50px;
+    }
+    
+    .btn2{
+        width: 70px;
+    }
+    
+    .btn3{
+        width: 30px;
+        transform: translate(1px, 7px);
+    } 
+    .btn4{
+        width: 30px;
+        transform: translate(1px, 7px);
+    }
+    .ten{
+        transform: translate(-150px, -50px);
+    }
+    .mal{
+        transform: translate(350px, -35px);
+    }
+    table{
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width:480px)
+{
+    html{
+        font-size: 8px;
+    }
+    .head{
+        border: 35px solid grey;
+        background-color: grey;
+        padding-bottom: 20px;
+    }
+    h3{
+        width: 50%;
+    }
+    .main{
+        margin-top: -20px;
+        margin-right: -30px;
+    }
+    .main li{
+        margin-right: 10px;
+    }
+
+    h2{
+        top:20%;
+    }
+
+    .btn{
+        margin-left: 50px;
+    }
+    
+    .btn1{
+        width: 60px;
+        transform: translate(-5px, -50px);
+    }
+    
+    .btn2{
+        width: 60px;
+        transform: translate(-65px, -10px);
+    }
+    
+    .btn3{
+        width: 60px;
+        transform: translate(-127px, 38px);
+    } 
+    .btn4{
+        width: 60px;
+        transform: translate(-187px, 78px);
+    }
+    .ten{
+        transform: translate(-400px, -25px);
+    }
+    .mal{
+        transform: translate(100px, -15px);
+    }
+    table{
+        margin-top: 50px;
+    }
+}

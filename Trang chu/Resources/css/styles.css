@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    /*mặc định là 16px*/
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering : optimizeLegibility;
+    /*hiển thị chữ lên trên website*/
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*..............................*/
+/* ----------HEADER----------------
+-------------------------------- */
+
+body{
+    background-image: linear-gradient(45deg, rgba(2,33,64, 0.8) 55%, rgba(45,95,93)), url("../img/background.jpg");
+    /* a là độ mờ */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+h3{
+    color: cornsilk;
+    margin-top: 30px;
+    background-color: black;
+    padding: 15px;
+    padding-left: 200px;
+    border: 6px solid;
+}
+
+.exp{
+    margin-left: 800px;
+    margin-top: 100px;
+}
+
+.btn1{
+    float: left;
+    width: 300px;
+    margin-left: 650px;
+    margin-top: 80px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: #d35400;
+}
+
+.btn2{
+    float: left;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: #d35400;
+}
+
+.btn3{
+    float: left;
+    width: 300px;
+    margin-left: 650px;
+    margin-top: 80px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: #d35400;
+}
+
+.btn4{
+    float: left;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: #d35400;
+}

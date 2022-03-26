@@ -1,0 +1,134 @@
+
+/* DEFAULT SETUP */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    /*mặc định là 16px*/
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering : optimizeLegibility;
+    /*hiển thị chữ lên trên website*/
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.head
+{
+    border: 12px solid grey;
+    background-color: grey;
+    padding-bottom: 20px;
+}
+
+h3{
+    color: cornsilk;
+    float: left;
+}
+
+h6{
+    border: 12px solid gainsboro;
+    background-color: gainsboro;
+    margin-left: 50px;
+}
+
+.main
+{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.main li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.main li a
+{
+    text-decoration: none;
+    color: #ffffff;
+    transition: border-bottom 0.5s;
+}
+
+.main li a:hover,
+.main li a:active
+{
+    border-bottom: 2px solid #cccccc;
+}
+
+h2{
+    color: chocolate;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 3px; 
+    /* khoảng cách giữa các chữ, khoảng cách giữa các tiếng là word-spacing */
+}
+
+.btn{
+    margin-top: 140px;
+    margin-left: 100px;
+}
+
+.btn1{
+    width: 100px;
+    height: 35px;
+}
+
+.btn2{
+    width: 100px;
+    height: 35px;
+}
+
+.btn3{
+    width: 70px;
+    height: 35px;
+}
+
+.btn4{
+    width: 70px;
+    height: 35px;
+    background-color: red;
+}
+.ten{
+    margin-top: -20px;
+    margin-left: 500px;
+    height: 25px;
+}
+.mahs{
+    height: 25px;
+}
+
+table
+{
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+th{
+    padding: 3px 5px;
+    text-align: center;
+}
+
+.tich{
+    width: 30px;
+    text-align: center;
+}

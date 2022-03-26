@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    /*mặc định là 16px*/
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering : optimizeLegibility;
+    /*hiển thị chữ lên trên website*/
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*..............................*/
+/* ----------HEADER----------------
+-------------------------------- */
+
+body{
+    background-image: url("../img/backgroundlogin.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.login{
+    float: left;
+    display: inline;
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+.text1{
+    float: left;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.text1_1{
+    width: 400px;
+    padding: 10px;
+}
+
+.text1_2{
+    margin-top: 10px;
+    display: block;
+    width: 400px;
+    padding: 10px;
+}
+
+.btn{
+    float: left;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 8px;
+}
+
